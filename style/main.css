@@ -21,6 +21,8 @@
     height: 9vh;
 }
 body{
+    background-image: url(/images/backgrounds/53_Floral\ wallpaper_DIFF.jpg);
+    background-size: contain;
     background-color: whitesmoke;
 }
 h1{
@@ -59,6 +61,7 @@ opacity: 85%;
     height:100%;
 }
 p{
+    background-color: rgba(245, 245, 245, 0.307);
     font-size:x-large;
 }
 .paragraph{

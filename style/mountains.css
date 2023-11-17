@@ -1,4 +1,7 @@
 body{
+    background-image: url(/images/backgrounds/53_Floral\ wallpaper_DIFF.jpg);
+    background-size: contain;
+    background-color: whitesmoke;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center !important;
 }
@@ -32,6 +35,10 @@ h1{
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     padding-top: 10px;
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(245, 245, 245, 0.333);
 }
 h3{
     font-family:Georgia, 'Times New Roman', Times, serif !important;
