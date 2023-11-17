@@ -44,13 +44,16 @@
         option.innerHTML = mountain.name;
         list.appendChild(option);
     });
+
+
     list.addEventListener("change", event => {
         let mountain = mountainsArray.find(m => m.name == event.target.value);
         results.innerHTML = `<h1>${mountain.name}</h1>`;
+        results.innerHTML += mountain.desc;
         results.innerHTML += `<h3>Elevation: ${mountain.elevation} feet</h3>`;
         results.innerHTML += `<h3>Effort: ${mountain.effort}</h3>`;
         results.innerHTML += `<img src="./images/${mountain.img}">`;
-    });
+    }); 
 </script>
 
 </html>
